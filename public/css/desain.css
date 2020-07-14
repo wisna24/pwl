@@ -1,0 +1,216 @@
+body{
+	background: #dddddd;
+	font-family: Verdana;
+	margin: 0;
+	font-size: 14px;
+}
+
+.header{
+	background: #09137b;
+	padding: 20px;
+}
+
+.header h1{
+	color: #ffffff;
+	font-size: 38px;
+	text-align: center;
+	margin: 0;
+	font-family: 'Caveat', cursive;
+
+}
+
+.header h2{
+	font-size: 18px;
+	text-align: center;
+	margin: 0;
+	color: #ffffff;
+}
+
+.header img{
+	display: block;
+	margin: 0px auto;
+}
+
+.menu{
+
+	background: #080e58;
+	color: #ffffff;
+}
+.menu ul{
+	width: 980px;
+	padding: 0;
+	margin: 0 auto;
+	list-style: none;
+}
+
+
+.menu ul li{
+
+	display: inline-block;
+	padding: 18px;
+	transition: all 1s;
+
+}
+
+
+.menu ul li a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.menu ul li a:hover{
+	color: #ccc;
+}
+
+.menu  ul li img{
+	height: 18px;
+}
+.utama{
+	width: 980px;
+	background: #ffffff;
+	margin: 10px auto;
+	overflow: hidden;
+	clear: both;
+	padding: 10px 20px;
+	border:1px solid #ddd;
+
+}
+.utama .kiri{
+	display: block;
+	width: 640px;
+	float: left;
+	margin-right: 40px;
+}
+.utama .kanan{
+	display: block;
+	width: 300px;
+	float: left;
+}
+
+.utama .kanan{
+
+}
+.utama table{
+	font-size: 14px;
+}
+.menukategori {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.menukategori li {
+	padding: 10px 0px;
+	border-bottom: 1px solid #ddd;
+}
+
+.kanan img{
+	width: 90%;
+	padding: 20px;
+	background: #f5f5f5;
+}
+
+
+.produk{
+	text-align: center;
+	padding: 10px;
+	border: 1px solid #ddd;
+	width: 160px;
+	float: left;
+	margin: 10px;
+
+}
+.produk img{
+	width: 100%;
+}
+.produk h4{
+	margin: 0;
+	padding: 0;
+	font-size: 26px;
+	font-family: 'Caveat', cursive;
+}
+.produk h5{
+	margin: 0;
+	padding: 0;
+	font-size:13px;
+	font-weight: 100;
+}
+
+
+.loginform{
+	width: 500px;
+	display: block;
+
+}
+
+.info{
+	text-align: center;
+	padding: 10px;
+	font-style: italic;
+	background: #C6D021;
+	width: 90%;
+}
+.loginform label {
+	text-align:left;
+	text-transform: capitalize;
+	display: inline-block;
+	width: 120px;
+}
+
+
+.loginform input[type="text"],
+.loginform input[type="password"],
+.loginform input[type="email"] {
+	padding: 10px;
+	width: 250px;
+}
+
+
+.table {
+	width: 100%;
+  	border-collapse: collapse;
+}
+.table tr th{
+	background: #ddd;
+	border-bottom: 1px solid #111;
+}
+.table th, .table td{
+	padding: 5px 8px;
+}
+.table, th, td {
+  border: 1px solid #ddd;
+}
+
+.formtambah label{
+	width: 200px;
+	display: inline-block;
+}
+
+
+.formtambah input[type="text"],
+.formtambah input[type="password"],
+.formtambah input[type="email"] {
+	padding: 10px;
+	width: 400px;
+}
+
+.formtambah input[type="submit"]{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px auto;
+  text-align: center;
+  width: 200px;
+  display: block;
+}
+
+
+.footer{
+	color: #f5f5f5;
+	text-align: center;
+	background: #09137b;
+	padding: 40px;
+}
